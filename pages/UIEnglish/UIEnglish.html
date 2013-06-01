@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>UIEnglish</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- UICSS -->
+    <link href="/css/UI.css" rel="stylesheet" />
+    <!--Dictionary -->
+    <script src="/js/dictionary.js"></script>
+</head>
+<body>
+    <div class="UIEnglish fragment">
+        <header aria-label="Header content" role="banner">
+            <!--<button class="win-backbutton" aria-label="Back" disabled type="button"></button>-->
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">English to Bengali Dictionary</span>
+            </h1>
+        </header>
+
+        <!--Data Space -->
+        <section aria-label="Main content" role="main">
+            <hr class="hr1" />
+            <div id ="contentGrid">
+                <div id="grid1">
+                    <div id="formGrid" class="form-class">
+                        <br />
+                        <input id="inputText" placeholder="Enter the English word"/>
+                        <br /> <br />
+                        <button id="search">Search!</button>
+                        <br />
+                    </div>
+                    <div id ="recentGrid">
+                       <div id="recent"></div> 
+                        <div id="recents"></div>
+                    </div>
+                </div>
+                <div id="resultGrid">
+					
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

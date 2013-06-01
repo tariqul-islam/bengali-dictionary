@@ -1,0 +1,16 @@
+﻿.about p {
+    margin-left: 120px;
+}
+
+#abounEng [role=main] {
+    display: -ms-grid;
+    -ms-grid-columns: auto;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+

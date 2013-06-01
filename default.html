@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>English_to_Bengali_Dictionary</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- English_to_Bengali_Dictionary references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="/js/navigator.js"></script>
+
+    <!-- UICSS -->
+    <link href="/css/UI.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="contenthost" data-win-control="Application.PageControlNavigator" data-win-options="{home: '/pages/home/home.html'}"></div>
+    <div id="appbar" data-win-control="WinJS.UI.AppBar">
+        <hr data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id: 'hrapp1', type:'separator',section:'global'}" />
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'switch', label:'Change Language', icon:'switch'}" type="button"></button>
+        <hr data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id: 'hrapp2', type:'separator',section:'global'}" />
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'about', label:'About', icon:'help'}" type="button"></button>
+    </div>
+</body>
+</html>

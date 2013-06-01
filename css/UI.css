@@ -1,0 +1,132 @@
+﻿input, .form-class, #recentGrid, #resultGrid, #contentGrid {
+    text-align: center;
+}
+
+#contentGrid {
+    display: -ms-grid;
+    -ms-grid-columns: 400px 1fr;
+    margin: 20px 200px 0px 120px;
+    z-index: 1;
+}
+
+#grid1 [role=main] {
+    -ms-grid-column: 1;
+    display: -ms-grid;
+    -ms-grid-rows: 110px 400px;
+    margin: 20px 10px 10px 10px;
+    opacity: 1.0;
+}
+
+#resultGrid {
+    -ms-grid-column: 2;
+    margin: 23.34px 271px -1.34px 171px;
+    -ms-grid-column-span: 1;
+}
+
+#formGrid {
+    -ms-grid-row: 1;
+    margin: 5px;
+}
+
+#recentGrid {
+    -ms-grid-row: 2;
+    margin: 5px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.notFound {
+    text-align: center;
+    font-size: 20px;
+}
+
+.strongWord {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Courier New';
+}
+
+.hr1 {
+    border-bottom: 2px dashed #808080;
+    border-top: 2px solid #808080;
+    border-left: 0px;
+    border-right: 0px;
+    height: 5px;
+}
+
+.hr2 {
+    border-bottom: 2px solid #808080;
+    border-top: 2px dashed #808080;
+    border-left: 0px;
+    border-right: 0px;
+    height: 5px;
+}
+
+@media screen and (-ms-view-state: snapped) {
+    #contentGrid {
+	    display: -ms-grid;
+	    -ms-grid-rows: auto auto;
+	    -ms-grid-columns: auto;
+	    margin: 20px 20px 0px 20px;
+    }
+
+    #grid1 {
+	    position: relative;
+	    -ms-grid-row: 1;
+	    margin: 5px 5px 5px 5px;
+    }
+
+    #resultGrid {
+	    -ms-grid-row: 2;
+	    -ms-grid-column: 1;
+	    -ms-grid-column-span: 1;
+	    margin: 10px 10px 10px 10px;	
+    }
+}
+
+@media screen and (-ms-view-state: filled) {
+
+    #contentGrid {
+	    display: -ms-grid;
+	    -ms-grid-rows: auto auto;
+	    -ms-grid-columns: auto;
+	    margin: 20px 200px 0px 20px;
+    }
+
+    #grid1 {
+	    position: relative;
+	    -ms-grid-row: 1;
+	    margin: 5px 5px 5px 5px;
+    }
+
+    #resultGrid {
+	    -ms-grid-row: 2;
+	    -ms-grid-column: 1;
+	    -ms-grid-column-span: 1;
+	    margin: 10px 10px 10px 10px;	
+    }
+
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    #contentGrid {
+	    display: -ms-grid;
+	    -ms-grid-rows: auto auto;
+	    -ms-grid-columns: auto;
+	    margin: 20px 200px 0px 20px;
+    }
+
+    #grid1 {
+	    position: relative;
+	    -ms-grid-row: 1;
+	    margin: 5px 5px 5px 5px;
+    }
+
+    #resultGrid {
+	    -ms-grid-row: 2;
+	    -ms-grid-column: 1;
+	    -ms-grid-column-span: 1;
+	    margin: 10px 10px 10px 10px;	
+    }
+
+}
